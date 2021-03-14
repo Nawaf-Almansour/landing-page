@@ -1,0 +1,342 @@
+.full-screen-preview {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.space {
+    height:200px;
+}
+body {
+    background-color: white;
+    font-family: Poppins, sans-serif;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+}
+.navbar {
+    background-color: white;
+    box-shadow: 8px 3px 30px 5px rgba(0, 0, 0, 0.08);
+}
+
+.s {
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.text-decoration-none{
+    text-decoration: none!important;
+}
+/* Font Awesome Icons have variable width. Added fixed width to fix that.*/
+.icon-width { width: 2rem;}
+
+.mainMenu{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black !important;
+}
+.container-menu {
+    max-width: 1140px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section-container {
+    /*height: 760px;*/
+    max-height: 760px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.section-1 {
+    /*background-color: #ffced6;*/
+    background-image: url(assets/bak-g.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 55% auto;
+}
+.flex {
+    display: flex;
+}
+.space-around {
+    justify-content: space-around;
+}
+
+.img-a {
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+.img-a img {
+    right: 79px;
+    top: -37px;
+    position: relative;
+    height: 114%;
+    width: 118%;
+}
+
+.section-1 .text-container {
+    margin: auto;
+}
+.section-1 .text-container h4 {
+    z-index: 8;
+    height: auto;
+    width: auto;
+    color: rgb(16, 76, 186);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+.section-1 .text-container h2 {
+    z-index: 9;
+    height: auto;
+    width: auto;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 68px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 50px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.section-1 .text-container p {
+    z-index: 10;
+    font-family: Nunito;
+    height: auto;
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    white-space: normal;
+    width: 488px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 28px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+.section-1 .contact-content {
+    display: flex;
+}
+
+.section-1 .contact-content button {
+    z-index: 11;
+    background: linear-gradient(
+            90deg
+            , rgb(255, 56, 52) 0%, rgb(255, 113, 51) 100%);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    white-space: normal;
+    border: 0;
+    /*width: 182px;*/
+    height: 52px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 11px 33px;
+    border-radius: 4px;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    visibility: visible;
+}
+.section-1 .contact-content div {
+    margin: 5px 2px 0 15px
+}
+.section-1 .contact-content div h5:first-child {
+    z-index: 12;
+    font-family: Poppins;
+    height: auto;
+    width: auto;
+    color: rgb(16, 76, 186);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 21px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    margin: 0;
+}
+
+.section-1 .contact-content div h5:nth-child(2) {
+    z-index: 13;
+    font-family: Poppins;
+    height: auto;
+    width: auto;
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    text-align: left;
+    line-height: 21px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+}
+
+.section-2 {
+    background-image: url(assets/sec2-bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 55% auto;
+    padding-top: 120px;
+    margin-top: 40px;
+    padding-bottom: 120px;
+}
+.image-box {
+    width: 15%;
+    margin-right: 5px;
+}
+.image-box img {
+width: 100%;
+}
+.card {
+    padding: 30px 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 0px 7px 20px 0px rgba(42, 22, 139, 0.08);
+    transition: background .4s,border .3s,border-radius .3s,box-shadow .3s;
+    margin: 0;
+}
+.section-2 .col-sm-6 {
+    padding: 13px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 0 1rem;
+}
+
+.card-title {
+    margin: 0 0  7px 0;
+    text-transform: capitalize;
+    line-height: 32px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    font-size: 18px;
+}
+
+.card-text{
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #696969;
+    font-size: 16px;
+}
+
+.section-2  .text-container {
+    margin: auto;
+}
+
+.blue-text {
+    z-index: 8;
+    height: auto;
+    width: auto;
+    color: rgb(16, 76, 186);
+    text-decoration: none;
+    white-space: nowrap;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    line-height: 32px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    text-align: center;
+}
+
+.section-2 .title{
+    text-transform: capitalize;
+    line-height: 50px;
+    letter-spacing: 0px;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+    font-size: 36px;
+    text-align: center;
+}
+
+.section-3 {
+    background-image: url(assets/stat-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    margin: 40px 0 40px 0;
+    padding-bottom: 60px;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
