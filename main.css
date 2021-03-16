@@ -106,10 +106,12 @@ html {
     position: relative;
     height: 114%;
     width: 118%;
+    min-width: 143px;
 }
 
 .section-1 .text-container {
     margin: auto;
+    max-width: 70%;
 }
 .section-1 .text-container h4 {
     z-index: 8;
@@ -126,7 +128,8 @@ html {
     line-height: 32px;
     letter-spacing: 0px;
     font-weight: 600;
-    font-size: 18px;
+    /*font-size: 18px;*/
+    font-size: min(max(16px, 4vw), 22px);
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
@@ -144,10 +147,9 @@ html {
     max-height: none;
     max-width: none;
     text-align: left;
-    line-height: 68px;
     letter-spacing: 0px;
     font-weight: 700;
-    font-size: 50px;
+    font-size: min(max(21px, 4vw), 50px);
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
@@ -161,16 +163,16 @@ html {
     color: rgb(105, 105, 105);
     text-decoration: none;
     white-space: normal;
-    width: 488px;
     min-height: 0px;
-    min-width: 0px;
+    width: 488px;
+    min-width: 50%;
     max-height: none;
-    max-width: none;
+    max-width: 80%;
     text-align: left;
     line-height: 28px;
     letter-spacing: 0px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: min(max(11px, 3vw), 16px);
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
@@ -180,33 +182,6 @@ html {
     display: flex;
 }
 
-/*.section-1 .contact-content button {*/
-/*    z-index: 11;*/
-/*    background: linear-gradient(*/
-/*            90deg*/
-/*            , rgb(255, 56, 52) 0%, rgb(255, 113, 51) 100%);*/
-/*    color: rgb(255, 255, 255);*/
-/*    text-decoration: none;*/
-/*    white-space: normal;*/
-/*    border: 0;*/
-/*    !*width: 182px;*!*/
-/*    height: 52px;*/
-/*    min-height: 0px;*/
-/*    min-width: 0px;*/
-/*    max-height: none;*/
-/*    max-width: none;*/
-/*    text-align: center;*/
-/*    line-height: 30px;*/
-/*    letter-spacing: 0px;*/
-/*    font-weight: 700;*/
-/*    font-size: 17px;*/
-/*    padding: 11px 33px;*/
-/*    border-radius: 4px;*/
-/*    transform-origin: 50% 50%;*/
-/*    transform: translate(0px, 0px);*/
-/*    opacity: 1;*/
-/*    visibility: visible;*/
-/*}*/
 .section-1 .contact-content div {
     margin: 5px 2px 0 15px
 }
@@ -226,7 +201,7 @@ html {
     line-height: 21px;
     letter-spacing: 0px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: min(max(11px, 2vw), 16px);
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
@@ -250,7 +225,7 @@ html {
     line-height: 21px;
     letter-spacing: 0px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: min(max(11px, 2vw), 16px);
     transform-origin: 50% 50%;
     opacity: 1;
     transform: translate(0px, 0px);
@@ -368,13 +343,14 @@ width: 100%;
 
 .text-box {
     width: 45%;
+    max-width: 18vw;
 }
 
 .btn:link,
 .btn:visited {
     /*text-transform: uppercase;*/
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 15px  min(max(11px, 4vw), 16px);
     display: inline-block;
     border-radius: 8px;
     background: linear-gradient(
@@ -384,7 +360,7 @@ width: 100%;
     transition: all .2s;
     position: absolute;
     font-weight: 700;
-    font-size: 17px;
+    font-size: min(max(11px, 2vw), 16px);
 }
 
 .btn:hover {
@@ -466,4 +442,8 @@ width: 100%;
     padding-top: 120px;
     margin-top: 120px;
     padding-bottom: 40px;
+}
+
+.footer .container , section {
+    background-image: linear-gradient(to right, #2F0B82, #1249B9);
 }
