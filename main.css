@@ -447,3 +447,9 @@ width: 100%;
 .footer .container , section {
     background-image: linear-gradient(to right, #2F0B82, #1249B9);
 }
+
+@media only screen and (max-width: 600px) {
+    .spec2 {
+        height: 90px
+    }
+}
